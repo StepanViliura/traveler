@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+        <ImageButton
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/main_menu_btn"
+                android:contentDescription="@string/main_menu"
+                app:srcCompat="@drawable/ic_menu_icon"
+                app:backgroundTint="@color/colorPrimary"
+        />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_main"/>
+
+
+    <android.support.design.widget.FloatingActionButton
+            android:id="@+id/search_ride"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|start"
+            android:layout_margin="@dimen/fab_margin"
+            android:clickable="true"
+            android:onClick="openSearchActivity"
+            app:srcCompat="@drawable/ic_search_ride"
+            app:backgroundTint="@color/colorPrimary"
+            android:focusable="true"/>
+
+    <android.support.design.widget.FloatingActionButton
+            android:id="@+id/create_ride"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="@dimen/fab_margin"
+            android:clickable="true"
+            android:onClick="openCreateRideActivity"
+            app:srcCompat="@drawable/ic_create_ride"
+            app:backgroundTint="@color/colorPrimary"
+            android:focusable="true"/>
+
+</android.support.design.widget.CoordinatorLayout>

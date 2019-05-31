@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tools:RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:tag=""
+                      xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+            android:id="@+id/from_to_message"
+            style="@style/text_view"
+            android:layout_width="fill_parent"
+            android:layout_height="110dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignWithParentIfMissing="true"
+            android:maxLines="3"
+            android:textSize="32dp"/>
+
+    <TextView
+            android:id="@+id/time_line"
+            style="@style/text_view"
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:layout_alignParentBottom="true"
+            android:maxLines="1"
+            android:textSize="20dp" />
+
+
+</tools:RelativeLayout>

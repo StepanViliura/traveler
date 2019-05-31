@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tools:RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+                      android:tag=""
+                      xmlns:tools="http://schemas.android.com/tools">
+<TextView
+            android:id="@+id/from_to_message"
+            style="@style/text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignWithParentIfMissing="true"
+            android:maxLines="1"
+            android:textSize="32dp"/>
+
+    <TextView
+            android:id="@+id/time_line"
+            style="@style/text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_below="@+id/from_to_message"
+            android:maxLines="1"
+            android:textSize="20dp" />
+    <TextView
+            android:id="@+id/seats"
+            style="@style/text_view"
+            android:layout_below="@+id/time_line"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:maxLines="1"
+            android:textSize="20dp"
+            android:text="Available seats : "
+    />
+    <TextView
+            android:id="@+id/available_seats_tv"
+            style="@style/text_view"
+            android:layout_toRightOf="@+id/seats"
+            android:layout_alignParentBottom="true"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:maxLines="1"
+            android:textSize="20dp"
+    />
+    <Button
+        android:text="BOOK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/book_ride"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/textColor"
+        android:textSize="20dp"
+        android:layout_marginEnd="5dip"
+        android:layout_marginBottom="10dip"
+        android:tag=""/>
+</tools:RelativeLayout>

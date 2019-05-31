@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "422593594527",
+    "firebase_url": "https://travelercloud-1557853786376.firebaseio.com",
+    "project_id": "travelercloud-1557853786376",
+    "storage_bucket": "travelercloud-1557853786376.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:422593594527:android:29414b16ae71cef7",
+        "android_client_info": {
+          "package_name": "com.example.traveler"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "422593594527-rq1gg89ecabsaf1as2347nqeab7991si.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.traveler",
+            "certificate_hash": "3b2856d6c2a0c0dbe530ed421f8f1c312ac80766"
+          }
+        },
+        {
+          "client_id": "422593594527-onc7fdv5qfuhhobpr7tn8ung13drh4um.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.traveler",
+            "certificate_hash": "712b1685d2628c5d15c33316dc0997d5d2f9d145"
+          }
+        },
+        {
+          "client_id": "422593594527-hkiiphji8qgp5ugdgcoh6ergjr9vtgn4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkBnxgSIrqf5hVwJrsW44CUUM_r6xDqqo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "422593594527-hkiiphji8qgp5ugdgcoh6ergjr9vtgn4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
